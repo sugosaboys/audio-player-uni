@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Daniel - UTS Pancasila</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <audio id="myAudio">
+        <source src="./Daniel_1_oktober.mpeg" type="audio/mpeg">
+        Your browser does not support the audio element.
+    </audio>
+    <section class="center-screen">
+        <div class="banner-song">
+            <h1 class="title">Daniel 01 Oktober 2026</h1>
+            <img src="./banner.gif" alt="banner" fetchpriority="high" class="banner-image">
+            <div class="flex-center">
+                <span id="currentTimeDisplay">0:00</span>
+                <input type="range" id="rangeAudio" value="0" step="1">
+                <span id="durationDisplay">0:00</span>
+            </div>
+            <div>
+                <button id="playpauseAudio">
+                    <img src="../play-buttton.png" alt="play" id="playpauseimg">
+                </button>
+            </div>
+        </div>
+    </section>
+</body>
+<script src="./script.js"></script>
+</html>
